@@ -9,7 +9,7 @@ const methodOverride = require("method-override");
 const morgan = require("morgan");
 const session = require("express-session");
 
-const port = process.env.PORT ? process.env.PORT : "3000";
+const port = process.env.PORT ? process.env.PORT : "3003";
 
 mongoose.connect(process.env.MONGODB_URI);
 mongoose.connection.on("connected", () => {
